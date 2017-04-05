@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        mBluetoothAdapter.getProfileProxy(this, mProfileListener, BluetoothProfile.A2DP);
+        //mBluetoothAdapter.getProfileProxy(this, mProfileListener, BluetoothProfile.A2DP);
 
         BluetoothPtt  ptt = new BluetoothPtt(new BluetoothPtt.OnMessageReceived(){
             @Override
